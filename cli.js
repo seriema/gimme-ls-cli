@@ -5,7 +5,9 @@ console.log('hi!');
 
 var exec = require('child_process').exec;
 
-exec('dir', function (error, stdout, stderr) {
+var lss = process.platform === 'win32' ? 'dir' : 'ls';
+
+exec(lss, function (error, stdout, stderr) {
 	console.log(stdout);
 	if (stderr) {
 		console.error(stderr);
