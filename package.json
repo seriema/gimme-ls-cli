@@ -1,0 +1,39 @@
+{
+  "name": "gimme-ls-cli",
+  "version": "1.0.0",
+  "description": "Because `ls` > `dir`",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seriema/gimme-ls.git"
+  },
+  "author": {
+    "name": "John-Philip Johansson",
+    "email": "seriema@gmail.com",
+    "url": "http://johansson.jp"
+  },
+  "bin": {
+    "lss": "cli.js"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "ls",
+    "cli",
+    "cli-app",
+    "bash",
+    "windows",
+    "command"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seriema/gimme-ls/issues"
+  },
+  "homepage": "https://github.com/seriema/gimme-ls#readme",
+  "devDependencies": {
+    "xo": "^0.10.1"
+  }
+}
